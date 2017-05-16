@@ -253,9 +253,7 @@
     <Content Include="src\Config\webpack.dev.js" />
     <Content Include="src\Config\webpack.devserver.js" />
     <Content Include="src\Config\webpack.prod.js" />
-    <Content Include="src\favicon.ico" />
     <Content Include="src\main.js" />
-    <Content Include="src\styles.css" />
     <Content Include="webpack.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -295,8 +293,8 @@
     <Content Include="src\app\app.component.spec.js.map" />
     <Content Include="src\app\app.module.js.map" />
     <Content Include="src\main.js.map" />
-    <Content Include="tsconfig.json" />
     <Content Include="src\app\layoutTemplate.cshtml" />
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -306,7 +304,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-@using System.Web.Configuration
+﻿@using System.Web.Configuration
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,9 +69,9 @@
 
         </div>
     </section>
-    <section class="container main">
-        @RenderBody()
-    </section>
+<section class="container main">
+    @RenderBody()
+</section>
       <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
     <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
     <% } %>

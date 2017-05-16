@@ -1,4 +1,4 @@
-{
+﻿{
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -8,7 +8,7 @@
     "experimentalDecorators": true,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "baseUrl": "."
+    "suppressImplicitAnyIndexErrors": true
+    
   }
 }
